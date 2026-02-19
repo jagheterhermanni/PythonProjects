@@ -92,9 +92,9 @@ def play_round():
             break
 
 while True:
-    play_round()
+	play_round()
 
-    again = input("\nPlay another round? (y/n): ").lower()
-    if again != "y":
-        print("Thanks for playing!")
-        break
+	again = input("\nPlay another round? (y/n): ").lower()
+	if again != "y":
+		print("Thanks for playing!")
+		break
